@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  background-color: #eceef1;
+}
+body {
+  font-family: Roboto;
+  font-weight: normal;
+}
+p,
+.small-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.standar-size {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+.small-link {
+  font-style: unset;
+  text-decoration: none;
+}
+.flex--align {
+  display: flex;
+  align-items: center;
+}
+.header-button {
+  padding: 10px;
+  margin: 0 0 0 10px;
+}
+ul {
+  color: #76787d;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+li {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+li img {
+  height: 23px;
+  margin: 0 5px 0 0;
+}
+
+.logo-bar {
+  flex-flow: wrap column;
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 380px;
+}
+.user-form {
+  display: flex;
+  flex-flow: wrap column;
+  padding: 0 30px 30px 30px;
+  background-color: #ffffff;
+}
+.text-center {
+  text-align: center;
+}
+.inputs {
+  height: 34px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  margin: 0 0 20px 0;
+  padding: 0 10px;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+}
+.no-margin {
+  margin: 0;
+}
+small {
+  margin: 5px 0 20px 0;
+  font-size: 1rem;
+}
+label {
+  margin: 0 0 10px 0;
+}
+.login-button {
+  height: 45px;
+  padding: 5px 10px;
+}
+.icons {
+  height: 24px;
+  width: 24px;
+}
+.text-container {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.text-container .icons {
+  position: absolute;
+  top: 4px;
+  right: 20px;
+}
+.text-container input {
+  display: inline-block;
+  width: 100%;
+}
+.container-footer {
+  margin-top: 15px;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
